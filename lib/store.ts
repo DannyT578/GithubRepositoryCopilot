@@ -77,7 +77,7 @@ export const useAppStore = create<AppState>((set) => ({
   setAuthChecked: (authChecked) => set({ authChecked }),
 
   // AI model + keys
-  chatModel: 'gpt-4o-mini',
+  chatModel: 'gpt-5.4-mini',
   setChatModel: (chatModel) => set({ chatModel }),
   chatApiKey: '',
   setChatApiKey: (chatApiKey) => set({ chatApiKey }),
